@@ -1,0 +1,14 @@
+@media (max-width: 767px) {
+  .promo {
+    &__header {
+      display: flex;
+      flex-direction: column;
+      img {
+        display: block;
+      }
+    }
+    &__official {
+      display: block;
+    }
+  }
+}

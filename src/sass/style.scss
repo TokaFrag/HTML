@@ -1,16 +1,19 @@
 * {
-  font-family: "MuseoModerno", cursive;
+  font-family: "MuseoModerno", sans-serif;
 }
-@import "base/variables";
+
 // @import "base/mixins";
-// @import "base/media.scss";
 
 .container {
   max-width: 950px;
   margin: 0 auto;
 }
-
+@import "base/variables";
 @import "blocks/promo";
 @import "blocks/header";
 @import "blocks/buttons";
 @import "blocks/advantage";
+@import "blocks/title";
+@import "blocks/consultation";
+@import "blocks/forms";
+@import "base/media";
