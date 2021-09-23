@@ -35,4 +35,12 @@
       text-transform: uppercase;
     }
   }
+  &__icon {
+    &_animated {
+      animation: heartbeat 1.5s infinite ease;
+      &:hover {
+        animation-play-state: paused;
+      }
+    }
+  }
 }

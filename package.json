@@ -22,5 +22,10 @@
     "defaults",
     "not IE 11",
     "maintained node versions"
-  ]
+  ],
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "nanocolors": "^0.1.12",
+    "wow.js": "^1.2.2"
+  }
 }

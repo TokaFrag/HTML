@@ -1,3 +1,11 @@
+@import "base/variables";
+@import "base/animations";
+@import "base/media";
+:root {
+  --animate-delay: 2s;
+  --animate-duration: 2s;
+}
+
 * {
   font-family: "MuseoModerno", sans-serif;
 }
@@ -8,7 +16,7 @@
   max-width: 950px;
   margin: 0 auto;
 }
-@import "base/variables";
+
 @import "blocks/promo";
 @import "blocks/header";
 @import "blocks/buttons";
@@ -20,4 +28,5 @@
 @import "blocks/catalog";
 @import "blocks/feedback";
 @import "blocks/footer";
-@import "base/media";
+@import "blocks/modal";
+@import "blocks/pageup";
