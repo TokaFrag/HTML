@@ -51,6 +51,9 @@
     padding: 20px 20px 26px 20px;
     overflow: hidden;
     margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     &__img {
       display: block;
       margin: 0 auto;
@@ -97,6 +100,7 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
+      margin-bottom: 20px;
     }
     &__old-price {
       color: #555555;
@@ -137,20 +141,24 @@
         transform: translateX(-100%);
         margin-left: 0px;
       }
-      li {
-        position: relative;
-        color: #555555;
-        font-size: 14px;
-        font-weight: 300;
-        margin-bottom: 20px;
-        &:before {
-          content: "";
-          position: absolute;
-          width: 5px;
-          height: 5px;
-          background-color: $main-color;
-          left: -14px;
-          top: 7px;
+      ul {
+        list-style-type: none;
+
+        li {
+          position: relative;
+          color: #555555;
+          font-size: 14px;
+          font-weight: 300;
+          margin-bottom: 20px;
+          &:before {
+            content: "";
+            position: absolute;
+            width: 5px;
+            height: 5px;
+            background-color: $main-color;
+            left: -14px;
+            top: 7px;
+          }
         }
       }
     }

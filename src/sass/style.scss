@@ -1,6 +1,6 @@
 @import "base/variables";
 @import "base/animations";
-@import "base/media";
+
 :root {
   --animate-delay: 2s;
   --animate-duration: 2s;
@@ -30,3 +30,5 @@
 @import "blocks/footer";
 @import "blocks/modal";
 @import "blocks/pageup";
+
+@import "base/media";
